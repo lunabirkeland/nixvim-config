@@ -1,10 +1,5 @@
-{
-  pkgs,
-  system,
-  ...
-}: let
+{pkgs, ...}: let
   # Helper to determine if we're on Darwin
-  isDarwin = pkgs.stdenv.isDarwin;
   isLinux = pkgs.stdenv.isLinux;
 
   # Common packages for all systems
