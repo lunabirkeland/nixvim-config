@@ -3,6 +3,7 @@
     ./bufferline.nix
     ./term.nix
     ./tree.nix
+    ./leap.nix
   ];
 
   plugins = {
@@ -14,7 +15,6 @@
     todo-comments.enable = true;
     nvim-surround.enable = true;
     sleuth.enable = true;
-    leap.enable = true;
     snacks = {
       enable = true;
       settings = {
