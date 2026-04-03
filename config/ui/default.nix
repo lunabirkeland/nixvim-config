@@ -4,6 +4,7 @@
     ./term.nix
     ./tree.nix
     ./leap.nix
+    ./git.nix
   ];
 
   plugins = {
