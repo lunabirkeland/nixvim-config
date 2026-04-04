@@ -1,20 +1,8 @@
-{pkgs, ...}: {
-  extraPackages = with pkgs; [
-    shellcheck
-    shfmt
-    black
-    isort
-    prettier
-    alejandra
-    nixfmt
-    stylua
-    rustfmt
-    typstyle
-  ];
-
+{
   plugins = {
     conform-nvim = {
       enable = true;
+      autoInstall.enable = true;
       settings = {
         format_on_save = {
           lsp_fallback = "fallback";
