@@ -18,6 +18,7 @@
         };
         wgsl_analyzer.enable = true;
         nil_ls.enable = true;
+        tinymist.enable = true;
       };
     };
   };
