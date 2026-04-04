@@ -1,4 +1,8 @@
 {
+  pkgs,
+  lib,
+  ...
+}: {
   plugins = {
     conform-nvim = {
       enable = true;
@@ -8,8 +12,6 @@
           lsp_fallback = "fallback";
           timeout_ms = 500;
         };
-        notify_on_error = true;
-
         formatters_by_ft = {
           sh = ["shellcheck" "shfmt"];
           python = ["isort" "black"];
@@ -22,6 +24,12 @@
           yaml = ["prettier"];
           rust = ["rustfmt"];
           typst = ["typstyle"];
+          wgsl = ["wgslfmt"];
+        };
+        formatters = {
+          wgslfmt = {
+            command = lib.getExe' pkgs.wgsl-analyzer "wgslfmt";
+          };
         };
       };
     };
