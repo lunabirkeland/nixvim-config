@@ -9,6 +9,7 @@
     nixfmt
     stylua
     rustfmt
+    typstyle
   ];
 
   plugins = {
@@ -32,6 +33,7 @@
           nix = ["alejandra"];
           yaml = ["prettier"];
           rust = ["rustfmt"];
+          typst = ["typstyle"];
         };
       };
     };
