@@ -7,18 +7,6 @@
     # Required by telescope
     ripgrep
     fd
-    # Required by CMP and formatters
-    alejandra
-    nixpkgs-fmt
-    prettier
-    nixfmt
-    stylua
-    yapf
-    black
-    isort
-    shfmt
-    shellcheck
-    rustfmt
   ];
 
   # Linux-specific packages

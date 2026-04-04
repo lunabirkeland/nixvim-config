@@ -1,4 +1,16 @@
-{
+{pkgs, ...}: {
+  extraPackages = with pkgs; [
+    shellcheck
+    shfmt
+    black
+    isort
+    prettier
+    alejandra
+    nixfmt
+    stylua
+    rustfmt
+  ];
+
   plugins = {
     conform-nvim = {
       enable = true;
