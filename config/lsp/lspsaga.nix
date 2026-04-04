@@ -37,7 +37,7 @@
 
   keymaps = [
     {
-      key = "[";
+      key = "[d";
       action = "<cmd>Lspsaga diagnostic_jump_prev<CR>";
       mode = "n";
       options = {
@@ -46,7 +46,7 @@
       };
     }
     {
-      key = "]";
+      key = "]d";
       action = "<cmd>Lspsaga diagnostic_jump_next<CR>";
       mode = "n";
       options = {
