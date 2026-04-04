@@ -37,5 +37,6 @@
     noice.enable = true;
     illuminate.enable = true;
     comment.enable = true;
+    colorizer.enable = true;
   };
 }
