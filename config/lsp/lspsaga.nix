@@ -65,7 +65,7 @@
     }
     {
       key = "gd";
-      action = "<cmd>Lspsaga peak_definition<CR>";
+      action = "<cmd>Lspsaga peek_definition<CR>";
       mode = "n";
       options = {
         silent = true;
@@ -74,7 +74,7 @@
     }
     {
       key = "gt";
-      action = "<cmd>Lspsaga peak_type_definition<CR>";
+      action = "<cmd>Lspsaga peek_type_definition<CR>";
       mode = "n";
       options = {
         silent = true;
