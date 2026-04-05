@@ -39,5 +39,9 @@
     illuminate.enable = true;
     comment.enable = true;
     colorizer.enable = true;
+    transparent = {
+      enable = true;
+      autoLoad = true;
+    };
   };
 }
