@@ -1,6 +1,6 @@
 {
   imports = [
-    ./bufferline.nix
+    ./barbar.nix
     ./term.nix
     ./tree.nix
     ./leap.nix

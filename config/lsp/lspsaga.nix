@@ -100,7 +100,7 @@
       };
     }
     {
-      key = "<Leader>la";
+      key = "<Leader>ca";
       action = "<cmd>Lspsaga code_action<CR>";
       mode = "n";
       options = {
@@ -109,7 +109,7 @@
       };
     }
     {
-      key = "<Leader>lr";
+      key = "<Leader>cr";
       action = "<cmd>Lspsaga rename<CR>";
       mode = "n";
       options = {
@@ -119,7 +119,7 @@
     }
     {
       mode = "n";
-      key = "<leader>ld";
+      key = "<leader>cd";
       action = "<cmd>Lspsaga show_line_diagnostics<CR>";
       options = {
         silent = true;

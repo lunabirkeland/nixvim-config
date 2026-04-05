@@ -13,11 +13,11 @@
   keymaps = [
     {
       key = "<Leader>e";
-      action = "<cmd>NvimTreeFindFileToggle<CR>";
+      action = "<cmd>NvimTreeFindFile<CR>";
       mode = "n";
       options = {
         silent = true;
-        desc = "Toggle tree";
+        desc = "Open nvim tree";
       };
     }
   ];
