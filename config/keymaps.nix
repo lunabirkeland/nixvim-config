@@ -30,6 +30,15 @@
       };
     }
     {
+      key = "<leader>q";
+      action = "<cmd>close<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Close";
+      };
+    }
+    {
       key = "<leader>h";
       action = "<cmd>wincmd h<CR>";
       mode = "n";

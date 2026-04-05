@@ -5,7 +5,7 @@
       keymaps = {
         next.key = "<Tab>";
         previous.key = "<S-Tab>";
-        pick.key = "<leader>s";
+        pick.key = "<C-s>";
         close = {
           key = "<C-w>";
           options.nowait = true;

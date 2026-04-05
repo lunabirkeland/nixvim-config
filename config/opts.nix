@@ -32,6 +32,8 @@
 
       spell = false;
       spelllang = "en_us";
+
+      mouse = "a";
     };
     autoCmd = [
       {
