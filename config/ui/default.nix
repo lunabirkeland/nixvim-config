@@ -6,6 +6,7 @@
     ./leap.nix
     ./git.nix
     ./telescope.nix
+    ./transparent.nix
   ];
 
   plugins = {
@@ -35,13 +36,12 @@
         };
       };
     };
-    noice.enable = true;
+    fidget = {
+      enable = true;
+      settings.notification.window.winblend = 0;
+    };
     illuminate.enable = true;
     comment.enable = true;
     colorizer.enable = true;
-    transparent = {
-      enable = true;
-      autoLoad = true;
-    };
   };
 }
