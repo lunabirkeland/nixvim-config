@@ -7,7 +7,7 @@
       require('transparent').clear_prefix('gitsigns')
       require('transparent').clear_prefix('markview')
       require('transparent').clear_prefix('Telescope')
-      require('transparent').clear_prefix('barbar')
+      require('transparent').clear_prefix('Buffer')
       require('transparent').clear_prefix('NvimTree')
     '';
     settings = {
