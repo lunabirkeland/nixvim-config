@@ -5,6 +5,7 @@
     ./tree.nix
     ./leap.nix
     ./git.nix
+    ./telescope.nix
   ];
 
   plugins = {
