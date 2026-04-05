@@ -25,6 +25,8 @@
         "^data/"
         "%.ipynb"
         "%.pdf"
+        "%.png"
+        "%.jpg"
         "%.lock"
       ];
       set_env.COLORTERM = "truecolor";
