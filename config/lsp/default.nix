@@ -30,14 +30,16 @@
           // props
       )
       {
-        "<leader>k".action.__raw = "function() vim.diagnostic.jump({ count=-1, float=true }) end";
-        "<leader>j".action.__raw = "function() vim.diagnostic.jump({ count=1, float=true }) end";
+        "g[".action.__raw = "function() vim.diagnostic.jump({ count=-1, float=true }) end";
+        "g]".action.__raw = "function() vim.diagnostic.jump({ count=1, float=true }) end";
+        ga.lspBufAction = "code_action";
+        gh.action.__raw = "function() vim.diagnostic.open_float() end";
         gd.lspBufAction = "definition";
         gD.lspBufAction = "references";
         gt.lspBufAction = "type_definition";
         gi.lspBufAction = "implementation";
         K.lspBufAction = "hover";
-        "<leader>r".lspBufAction = "rename";
+        gr.lspBufAction = "rename";
         "<leader>f".lspBufAction = "format";
       };
   };
