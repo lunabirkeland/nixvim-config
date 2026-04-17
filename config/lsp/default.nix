@@ -6,6 +6,11 @@
 
   plugins.lspconfig.enable = true;
 
+  filetype.extension = {
+    wgsl = "wgsl";
+    wesl = "wesl";
+  };
+
   lsp = {
     inlayHints.enable = true;
     servers = {
@@ -15,7 +20,10 @@
         # installRustc = true;
         # installRustfmt = true;
       };
-      wgsl_analyzer.enable = true;
+      wgsl_analyzer = {
+        enable = true;
+        config.filetypes = ["wgsl" "wesl"];
+      };
       nil_ls.enable = true;
       tinymist.enable = true;
     };

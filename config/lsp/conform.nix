@@ -25,6 +25,7 @@
           rust = ["rustfmt"];
           typst = ["typstyle"];
           wgsl = ["wgslfmt"];
+          wesl = ["wgslfmt"];
         };
         formatters = {
           wgslfmt = {
